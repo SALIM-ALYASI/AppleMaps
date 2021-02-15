@@ -15,6 +15,12 @@
 		CE0A75F125DA6DC100556936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0A75EF25DA6DC100556936 /* LaunchScreen.storyboard */; };
 		CE0A75FC25DA6DC100556936 /* AppleMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0A75FB25DA6DC100556936 /* AppleMapsTests.swift */; };
 		CE0A760725DA6DC100556936 /* AppleMapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0A760625DA6DC100556936 /* AppleMapsUITests.swift */; };
+		CE13568025DABA0E00696292 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13567F25DABA0E00696292 /* MapsViewController.swift */; };
+		CE13568525DABC3D00696292 /* MapsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE13568425DABC3D00696292 /* MapsStoryboard.storyboard */; };
+		CE13568E25DABD4300696292 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13568D25DABD4300696292 /* View.swift */; };
+		CE13569325DABD8500696292 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13569225DABD8500696292 /* Button.swift */; };
+		CE13569825DABF5B00696292 /* GoSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13569725DABF5B00696292 /* GoSite.swift */; };
+		CE13569D25DAC43000696292 /* GoMAPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE13569C25DAC43000696292 /* GoMAPS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		CE0A760225DA6DC100556936 /* AppleMapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleMapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0A760625DA6DC100556936 /* AppleMapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapsUITests.swift; sourceTree = "<group>"; };
 		CE0A760825DA6DC100556936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE13567F25DABA0E00696292 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		CE13568425DABC3D00696292 /* MapsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapsStoryboard.storyboard; sourceTree = "<group>"; };
+		CE13568D25DABD4300696292 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		CE13569225DABD8500696292 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		CE13569725DABF5B00696292 /* GoSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoSite.swift; sourceTree = "<group>"; };
+		CE13569C25DAC43000696292 /* GoMAPS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoMAPS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,8 @@
 				CE0A75ED25DA6DC100556936 /* Assets.xcassets */,
 				CE0A75EF25DA6DC100556936 /* LaunchScreen.storyboard */,
 				CE0A75F225DA6DC100556936 /* Info.plist */,
+				CE13568925DABCA700696292 /* Tools */,
+				CE13567B25DAB9CB00696292 /* Maps */,
 			);
 			path = AppleMaps;
 			sourceTree = "<group>";
@@ -126,6 +140,26 @@
 				CE0A760825DA6DC100556936 /* Info.plist */,
 			);
 			path = AppleMapsUITests;
+			sourceTree = "<group>";
+		};
+		CE13567B25DAB9CB00696292 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				CE13567F25DABA0E00696292 /* MapsViewController.swift */,
+				CE13568425DABC3D00696292 /* MapsStoryboard.storyboard */,
+				CE13569725DABF5B00696292 /* GoSite.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		CE13568925DABCA700696292 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CE13568D25DABD4300696292 /* View.swift */,
+				CE13569225DABD8500696292 /* Button.swift */,
+				CE13569C25DAC43000696292 /* GoMAPS.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +267,7 @@
 			files = (
 				CE0A75F125DA6DC100556936 /* LaunchScreen.storyboard in Resources */,
 				CE0A75EE25DA6DC100556936 /* Assets.xcassets in Resources */,
+				CE13568525DABC3D00696292 /* MapsStoryboard.storyboard in Resources */,
 				CE0A75EC25DA6DC000556936 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +294,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE0A75E925DA6DC000556936 /* ViewController.swift in Sources */,
+				CE13569325DABD8500696292 /* Button.swift in Sources */,
+				CE13569825DABF5B00696292 /* GoSite.swift in Sources */,
 				CE0A75E525DA6DC000556936 /* AppDelegate.swift in Sources */,
+				CE13568E25DABD4300696292 /* View.swift in Sources */,
 				CE0A75E725DA6DC000556936 /* SceneDelegate.swift in Sources */,
+				CE13569D25DAC43000696292 /* GoMAPS.swift in Sources */,
+				CE13568025DABA0E00696292 /* MapsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
